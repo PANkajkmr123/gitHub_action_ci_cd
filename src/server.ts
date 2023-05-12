@@ -49,7 +49,7 @@ app.use('/api/v1', apiRouter);
 app.use('/api/v1/admin', adminRoutesBE);
 
 app.get('/api/v1/details', (req,res) =>{
-    res.json({"name":"pankaj" , "email":"pankajkmr474@gmail.com" ,"phone":"234"})
+    res.json({"name":"pankaj" , "email":"pankajkmr474@gmail.com" ,"phone":"234" ,"address":"delhi"})
 });
 
 // Error handling
